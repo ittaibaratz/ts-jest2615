@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "module": "es2020",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "noEmitOnError": true,
+    "noImplicitThis": false,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "target": "es2020"
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
